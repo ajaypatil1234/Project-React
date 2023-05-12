@@ -413,8 +413,6 @@ a {
 }
 
 .active {
-  background-color: #141414;
-  color: orange !important;
-  border-radius: 50%;
-  transition: 1s all;
+  color: red !important;
+  font-weight: 800;
 }
