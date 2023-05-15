@@ -23,7 +23,7 @@ function About() {
                         </p>
                     </div>
                     <div className="col-sm-12 col-md-6">
-                        <img src={About1} alt="" />
+                        <img src={About1} className="img-fluid" alt="Responsive image" />
                     </div>
 
 

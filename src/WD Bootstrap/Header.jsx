@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './Pages/style.css'
+import './Pages/media_querry.css'
 function Header() {
     return (
         <>
@@ -10,21 +11,23 @@ function Header() {
                     <div className="container container-lg container-md container-sm">
                         <div className="row p-3">
                             <div className="col-auto col-sm-12 col-md-12 col-lg-8 hide-con">
-                                <div className="list-unstyled d-flex align-items-center">
-                                    <li className="p-2">
-                                        <a href="" className="text-white text-decoration-none">
+                                <div className="list-unstyled d-flex align-items-center social-link">
+                                    <li className=" time p-2  col-sm-12">
+                                        <a href="" className="  text-white text-decoration-none">
                                             <span className="fa-solid fa-clock"></span>
                                             Monday - Friday: 10:00 - 18:00
                                         </a>
                                     </li>
-                                    <li className="p-2">
-                                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" className="text-white text-decoration-none">
+                                    <li className="p-2  col-sm-12">
+                                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+                                            className="text-white text-decoration-none col-sm-12">
                                             <span className="fa-solid fa-envelope me-1"></span>
                                             ajpatil2309@gmail.com
                                         </a>
                                     </li>
-                                    <li className="p-2">
-                                        <a href="" className="text-white text-decoration-none">
+                                    <li className="p-2  col-sm-4">
+                                        <a href=""
+                                            className="text-white text-decoration-none col-sm-12">
                                             <span className="fa-solid fa-phone"></span>
                                             +142 5897555
                                         </a>
