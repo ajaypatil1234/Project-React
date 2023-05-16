@@ -91,7 +91,7 @@ function About() {
 
 
                 <div className="row">
-                    <div className="col-sm-12 col-md-3">
+                    <div className="col-sm-12 col-md-3 ">
                         <div className="card" style={{ width: "18rem" }}>
                             <img className="" src={Team1} alt="Card image cap" />
                             <div className="card-body">
@@ -104,7 +104,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className=" col-sm-12 col-md-3">
+                    <div className=" col-sm-12 col-md-3 ">
                         <div className="card" style={{ width: "18rem" }}>
                             <img className="" src={Team2} alt="Card image cap" />
                             <div className="card-body">

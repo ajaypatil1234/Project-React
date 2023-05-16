@@ -1,5 +1,6 @@
 import React from 'react'
 import './Pages/style.css'
+import './Pages/media_querry.css'
 function Footer() {
     return (
         <>
