@@ -5,7 +5,8 @@ import Team1 from './image/team1.jpg'
 import Team2 from './image/team2.jpg'
 import Team3 from './image/team3.jpg'
 import Team4 from './image/team4.jpg'
-
+import './style.css'
+import './media_querry.css'
 function About() {
     return (
         <>
@@ -80,7 +81,7 @@ function About() {
 
 
             {/* Amazing team  */}
-            <div className="container">
+            <div className="">
                 <div className="row  p-5">
                     <div className="team col-md-12 " style={{ textAlign: 'center' }}>
                         <h3 className='ms-5 ' style={{ color: "orange" }}>Meet our</h3>
@@ -91,7 +92,7 @@ function About() {
 
 
                 <div className="row">
-                    <div className="col-sm-12 col-md-3 ">
+                    <div className="col-sm-12 col-md-3 clients">
                         <div className="card" style={{ width: "18rem" }}>
                             <img className="" src={Team1} alt="Card image cap" />
                             <div className="card-body">
@@ -104,7 +105,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className=" col-sm-12 col-md-3 ">
+                    <div className=" col-sm-12 col-md-3 clients ">
                         <div className="card" style={{ width: "18rem" }}>
                             <img className="" src={Team2} alt="Card image cap" />
                             <div className="card-body">
@@ -117,7 +118,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-3">
+                    <div className="col-sm-12 col-md-3 clients">
                         <div className="card" style={{ width: "18rem" }}>
                             <img className="" src={Team3} alt="Card image cap" />
                             <div className="card-body">
@@ -130,7 +131,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className=" col-sm-12 col-md-3">
+                    <div className=" col-sm-12 col-md-3 clients">
                         <div className="card" style={{ width: "18rem" }}>
                             <img className="" src={Team4} alt="Card image cap" />
                             <div className="card-body">
