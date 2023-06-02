@@ -40,7 +40,8 @@
   }
 
   .clients {
-    text-align: center;
+    margin-left: 70px;
+    margin-top: 20px;
   }
 
 }
@@ -51,6 +52,10 @@
     display: none;
   }
 
+  .clients {
+    margin-left: 70px;
+    margin-top: 20px;
+  }
 
   .slide-img .img-1 {
     background-image: url(image/banner1.jpg);
