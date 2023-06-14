@@ -107,11 +107,11 @@
   }
 
   .service-p-info {
-    background-color: white;
+    /* background-color: white;
     color: black;
     text-align: center;
     line-height: 40px;
-    border-bottom: 5px solid transparent;
+    border-bottom: 5px solid transparent; */
     display: none;
   }
 
