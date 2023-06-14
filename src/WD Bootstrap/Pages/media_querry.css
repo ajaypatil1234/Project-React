@@ -112,6 +112,7 @@
     text-align: center;
     line-height: 40px;
     border-bottom: 5px solid transparent;
+    display: none;
   }
 
   .cont-details {
